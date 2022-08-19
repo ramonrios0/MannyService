@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Navegación">
+        <menu>
+            <item
+                android:id="@+id/verSuscripciones"
+                android:title="Ver Suscripciones"
+                android:icon="@drawable/suscripciones"
+                />
+            <item
+                android:id="@+id/verPerfil"
+                android:title="Mi Perfil"
+                android:icon="@drawable/perfil"
+                />
+        </menu>
+    </item>
+    <item android:title="Ayuda">
+        <menu>
+            <item
+                android:id="@+id/centroAyuda"
+                android:icon="@drawable/ayuda"
+                android:title="Centro de Ayuda" />
+            <item
+                android:id="@+id/acerca"
+                android:icon="@drawable/admiracion"
+                android:title="Acerca de MannyService" />
+        </menu>
+    </item>
+    <item android:title="Sesion">
+        <menu>
+            <item
+                android:id="@+id/cerrarSesion"
+                android:icon="@drawable/cerrar_sesion"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+</menu>
